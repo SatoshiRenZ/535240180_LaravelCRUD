@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            background: #0000;
             color: #fff;
             min-height: 100vh;
             display: flex;
@@ -16,33 +16,40 @@
         }
         .card {
             background: rgba(255, 255, 255, 0.1);
-            border: none;
-            border-radius: 15px;
+            border: 1px solid #000;
+            border-color: #000000;
+            border-radius: 20px;
+            border-width: 4px;
             backdrop-filter: blur(10px);
         }
         .form-control {
             background: rgba(255, 255, 255, 0.2);
-            border: none;
-            color: #fff;
+            border: 1px solid #000000;
+            color: #000000;
+            border-radius: 10px;
         }
         .form-control:focus {
             background: rgba(255, 255, 255, 0.3);
+            border: 1px solid #4500e5;
             box-shadow: none;
-            border: none;
         }
         .btn-primary {
-            background: #2575fc;
+            background: #4500e5;
             border: none;
+            cursor: pointer
         }
         .btn-primary:hover {
             background: #6a11cb;
         }
+        .btn-primary:active {
+            background: #F08080;
+        }
         .btn-link {
-            color: #fff;
+            color: #000000;
             text-decoration: underline;
         }
         .btn-link:hover {
-            color: #ddd;
+            color: #4500e5;
         }
     </style>
 </head>

@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            background: #0000;
             color: #fff;
             min-height: 100vh;
             display: flex;
@@ -16,33 +16,37 @@
         }
         .card {
             background: rgba(255, 255, 255, 0.1);
-            border: none;
-            border-radius: 15px;
+            border-color: #000000;
+            border-radius: 20px;
+            border-width: 2px;
             backdrop-filter: blur(10px);
         }
         .form-control {
             background: rgba(255, 255, 255, 0.2);
-            border: none;
+            border: 1px solid #000;
             color: #fff;
         }
         .form-control:focus {
             background: rgba(255, 255, 255, 0.3);
             box-shadow: none;
-            border: none;
+            border: 1px solid #000;
         }
-        .btn-primary {
-            background: #2575fc;
-            border: none;
+        .btn.btn-primari {
+            background: #ff0000;
+            border: 1px solid #000;
         }
-        .btn-primary:hover {
-            background: #6a11cb;
+        .btn.btn-primari:hover {
+            background: #cd0000;
         }
-        .btn-link {
-            color: #fff;
+        .btn.btn-primari:active {
+            background-color: #F08080;
+        }
+        .btn.btn-link {
+            color: #ff0000;
             text-decoration: underline;
         }
-        .btn-link:hover {
-            color: #ddd;
+        .btn.btn-link:hover {
+            color: #4500e5;
         }
     </style>
 </head>
@@ -94,7 +98,7 @@
                         </div>
 
                         <div class="d-grid">
-                            <button type="submit" class="btn btn-primary">Register</button>
+                            <button type="submit" class="btn btn-primari">Register</button>
                         </div>
                     </form>
                 </div>
