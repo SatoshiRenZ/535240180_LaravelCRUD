@@ -24,12 +24,12 @@
                     <tbody>
                         @foreach ($mahasiswa as $mhs)
                             <tr>
+                            
                                 <td>{{ $mhs->id }}</td>
                                 <td>{{ $mhs->nim }}</td>
                                 <td>{{ $mhs->nama }}</td>
                                 <td>{{ $mhs->email }}</td>
                                 <td>{{ $mhs->jurusan }}</td>
-
                                 <td>
                                     <a href="{{route('mahasiswa.edit', $mhs->id)}}" class="btn btn-warning">Edit</a>
                                     <form action="{{route('mahasiswa.destroy', $mhs->id)}}" method="POST" class="d-inline">

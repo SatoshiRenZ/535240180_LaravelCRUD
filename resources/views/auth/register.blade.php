@@ -24,12 +24,7 @@
         .form-control {
             background: rgba(255, 255, 255, 0.2);
             border: 1px solid #000;
-            color: #fff;
-        }
-        .form-control:focus {
-            background: rgba(255, 255, 255, 0.3);
-            box-shadow: none;
-            border: 1px solid #000;
+            color: #000000;
         }
         .btn.btn-primari {
             background: #ff0000;
